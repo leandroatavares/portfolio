@@ -3,16 +3,14 @@ main {
   height: 75vh;
   border-radius: 15px;
 
-  pointer-events: none;
-  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
-  background: transparent;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.8);
+  background: var(--background-glass);
   backdrop-filter: blur(15px);
 }
 
 p {
   font-size: 56px;
-  font-family: 'Roboto', sans-serif;
   font-weight: bolder;
-  color: #fff;
+  color: var(--color-text-main);
   text-align: center;
 }

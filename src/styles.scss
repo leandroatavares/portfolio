@@ -1,4 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+@use "./styles/reset";
+@use "./styles/themes";
+
 * {
   margin: 0;
   padding: 0;
@@ -22,7 +24,7 @@ input,
 textarea,
 select,
 button {
-  font: 400 1rem "Roboto", sans-serif;
+  font: 400 1rem 'JetBrains Mono', monospace, sans-serif;
 }
 
 button {
@@ -35,7 +37,7 @@ body {
   align-items: center;
   height: 100vh;
   width: 100vw;
-  background: url('./assets/bg-dark.jpg');
+  background: var(--background-image);
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
