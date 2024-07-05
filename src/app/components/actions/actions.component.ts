@@ -8,10 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './actions.component.scss'
 })
 export class ActionsComponent {
-  public isLightTheme = true;
+  public isLightTheme = false;
 
   onThemeSwitchChange() {
-    console.log('click')
     this.isLightTheme = !this.isLightTheme;
 
     document.body.setAttribute(

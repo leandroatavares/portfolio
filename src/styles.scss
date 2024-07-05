@@ -31,20 +31,29 @@ button {
   cursor: pointer;
 }
 
+html,
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 100vw;
-  background: var(--background-image);
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-  overflow: hidden;
+  background-color: var(--color-background-primary);
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  color: var(--color-text-main);
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  padding: 5rem;
 }

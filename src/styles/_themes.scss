@@ -1,16 +1,11 @@
 [data-theme="light"] {
-  --background-image: url('../assets/images/bg-light.jpg');
-  --background-glass: rgba(0, 0, 0, 0.8);
-
-  --color-text-main: #f0f0f0;
-  --color-theme-action: #f5f3cE;
+  --color-text-main: #0f0f0f;
+  --color-background-primary: #e8e6e6;
+  --color-theme-action: #f28c38;
 }
 
 [data-theme="dark"] {
-  --background-image: url('../assets/images/bg-dark.jpg');
-  --background-glass: rgba(195, 195, 195, 0.2);
-
-  --color-text-main: #0f0f0f;
-  --color-theme-action: #f28c38;
-
+  --color-text-main: #f0f0f0;
+  --color-background-primary: #1f1f2f;
+  --color-theme-action: #f5f3cE;
 }
