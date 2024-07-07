@@ -1,5 +1,17 @@
 <section id="hero">
-  <img src="https://place-hold.it/300" alt="Leandro dos Anjos Tavares">
+  <img [src]="avatar" alt="Leandro dos Anjos Tavares">
   <h1>Hi, my name is <span>Leandro</span></h1>
   <h2>Web developer</h2>
+
+  <div class="social">
+    <a href="mailto:leandroanjostavares@gmail.com">
+      <fa-icon [icon]="faEnvelope" size="xl" title="send me an email"></fa-icon>
+    </a>
+    <a href="https://github.com/leandroatavares" target="_blank">
+      <fa-icon [icon]="faGithub" size="xl" title="go to my github"></fa-icon>
+    </a>
+    <a href="http://linkedin.com/in/leandroatavares" target="_blank">
+      <fa-icon [icon]="faLinkedin" size="xl" title="go to my linkedin"></fa-icon>
+    </a>
+  </div>
 </section>

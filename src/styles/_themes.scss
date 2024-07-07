@@ -1,11 +1,15 @@
 [data-theme="light"] {
   --color-text-main: #0f0f0f;
-  --color-background-primary: #e8e6e6;
+  --color-background-primary: hsl(60, 30%, 96%);
   --color-theme-action: #f28c38;
 }
 
 [data-theme="dark"] {
   --color-text-main: #f0f0f0;
-  --color-background-primary: #1f1f2f;
+  --color-background-primary: hsl(231, 15%, 18%);
   --color-theme-action: #f5f3cE;
+}
+
+:root {
+  --color-red: #ff5555;
 }
