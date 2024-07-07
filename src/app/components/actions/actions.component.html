@@ -1,5 +1,6 @@
 <div id="actions">
   <button class="theme-action" (click)="onThemeSwitchChange()">
-    <span class="material-symbols-outlined">{{isLightTheme ? 'light_mode' : 'dark_mode'}}</span>
+    <fa-icon class="theme-action--icon" [icon]="isLightTheme ? faSun : faMoon" size="xl"
+      title="go to my github"></fa-icon>
   </button>
 </div>

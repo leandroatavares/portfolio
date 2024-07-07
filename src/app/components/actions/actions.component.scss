@@ -16,9 +16,14 @@
   display: flex;
   align-items: center;
 
-  span {
+  &--icon {
     color: var(--color-theme-action);
-    font-weight: 800;
-    text-shadow: 0 0 7px rgba(180, 237, 25, 0.8);
+    filter: drop-shadow(0 0 3px rgba(180, 237, 25, 0.6));
+    transition: transform 250ms;
+
+    &:hover {
+      transform: scale(1.15);
+    }
   }
+
 }
