@@ -1,0 +1,56 @@
+#projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  margin-bottom: 4rem;
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.project {
+  width: 20rem;
+  border: 1px solid var(--color-background-secondary);
+  border-radius: 4px;
+
+  img {
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+}
+
+.project_info {
+  &__description {
+    font-size: .7rem;
+    padding: .3rem .65rem;
+  }
+}
+
+.techs {
+  border-top: 1px solid var(--color-background-secondary);
+  padding: .3rem .65rem;
+
+  p {
+    font-size: .55rem;
+  }
+
+  .ng-fa-icon {
+    font-size: 1.5rem;
+    color: var(--color-background-detail);
+  }
+}
+
+@media (max-width: 420px) {
+  .project-list {
+    grid-template-columns: 1fr;
+  }
+}

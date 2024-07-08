@@ -1,12 +1,16 @@
 [data-theme="light"] {
   --color-text-main: #0f0f0f;
   --color-background-primary: hsl(60, 30%, 96%);
+  --color-background-secondary: hsl(232, 14%, 31%);
+  --color-background-detail: hsl(225, 27%, 51%);
   --color-theme-action: #f28c38;
 }
 
 [data-theme="dark"] {
   --color-text-main: #f0f0f0;
   --color-background-primary: hsl(231, 15%, 18%);
+  --color-background-secondary: hsl(232, 14%, 31%);
+  --color-background-detail: hsl(225, 27%, 51%);
   --color-theme-action: #f5f3cE;
 }
 
