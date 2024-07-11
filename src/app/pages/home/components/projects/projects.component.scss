@@ -47,6 +47,11 @@ h2 {
     font-size: 1.5rem;
     color: var(--color-background-detail);
   }
+
+  .tech-list {
+    display: flex;
+    gap: 5px;
+  }
 }
 
 @media (max-width: 420px) {
