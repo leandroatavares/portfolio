@@ -22,6 +22,6 @@ export class HeroComponent {
 
   generateAnalytics(social: string) {
     console.log(`test`)
-    this.analyticsService.trackEvent('social', `click in ${social}`, 'SOCIAL_CLICK')
+    this.analyticsService.trackEvent('social_access', `click in ${social}`, 'SOCIAL_CLICK')
   }
 }
