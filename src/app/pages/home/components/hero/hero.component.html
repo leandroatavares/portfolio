@@ -4,13 +4,13 @@
   <h2>Web developer</h2>
 
   <div class="social">
-    <a href="mailto:leandroanjostavares@gmail.com">
+    <a href="mailto:leandroanjostavares@gmail.com" (click)="generateAnalytics('email')">
       <fa-icon [icon]="faEnvelope" size="xl" title="send me an email"></fa-icon>
     </a>
-    <a href="https://github.com/leandroatavares" target="_blank">
+    <a href="https://github.com/leandroatavares" target="_blank" (click)="generateAnalytics('github')">
       <fa-icon [icon]="faGithub" size="xl" title="go to my github"></fa-icon>
     </a>
-    <a href="http://linkedin.com/in/leandroatavares" target="_blank">
+    <a href="http://linkedin.com/in/leandroatavares" target="_blank" (click)="generateAnalytics('linkedin')">
       <fa-icon [icon]="faLinkedin" size="xl" title="go to my linkedin"></fa-icon>
     </a>
   </div>

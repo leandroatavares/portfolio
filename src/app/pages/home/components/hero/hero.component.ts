@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { AnalyticsService } from '../../../../services/analytics.service';
 
 
 @Component({
@@ -16,4 +17,11 @@ export class HeroComponent {
   faGithub = faGithub;
   faLinkedin = faLinkedin;
   avatar = '/assets/images/leandroatavares.jpg';
+
+  constructor(private analyticsService: AnalyticsService) { }
+
+  generateAnalytics(social: string) {
+    console.log(`test`)
+    this.analyticsService.trackEvent('social', `click in ${social}`, 'SOCIAL_CLICK')
+  }
 }
