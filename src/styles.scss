@@ -24,7 +24,7 @@ input,
 textarea,
 select,
 button {
-  font: 400 1rem 'JetBrains Mono', monospace, sans-serif;
+  font: 400 1rem 'Poppins', sans-serif;
 }
 
 button {
@@ -60,10 +60,11 @@ h2 {
 section {
   width: 100%;
   min-height: 100vh;
-  padding: 5rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 520px) {
   section {
     padding: 2.5rem;
   }
