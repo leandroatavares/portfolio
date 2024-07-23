@@ -2,7 +2,7 @@
   --color-text-main: #0f0f0f;
   --color-background-primary: hsl(60, 30%, 96%);
   --color-background-secondary: hsl(232, 14%, 31%);
-  --color-background-detail: hsl(224, 41%, 77%);
+  --color-detail: #FF5555;
   --color-theme-action: #f28c38;
 }
 
@@ -10,10 +10,6 @@
   --color-text-main: #f0f0f0;
   --color-background-primary: hsl(231, 15%, 18%);
   --color-background-secondary: hsl(232, 14%, 31%);
-  --color-background-detail: hsl(225, 27%, 51%);
+  --color-detail: #FF5555;
   --color-theme-action: #f5f3cE;
-}
-
-:root {
-  --color-red: #ff5555;
 }

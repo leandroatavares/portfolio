@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faFileDownload } from '@fortawesome/free-solid-svg-icons';
 import { AnalyticsService } from '../../../../services/analytics.service';
 
 
@@ -16,6 +16,7 @@ export class HeroComponent {
   faEnvelope = faEnvelope;
   faGithub = faGithub;
   faLinkedin = faLinkedin;
+  faFileDownload = faFileDownload;
   avatar = '/assets/images/leandroatavares.jpg';
 
   constructor(private analyticsService: AnalyticsService) { }

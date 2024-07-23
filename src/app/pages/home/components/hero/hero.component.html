@@ -1,17 +1,27 @@
 <section id="hero">
-  <img [src]="avatar" alt="Leandro dos Anjos Tavares">
-  <h1>Hi, my name is <span>Leandro</span></h1>
-  <h2>Web developer</h2>
+  <div class="hero-content">
+    <h1>Hi there <span class="second-line">my name is <span class="my-name">Leandro</span></span></h1>
 
-  <div class="social">
-    <a href="mailto:leandroanjostavares@gmail.com" (click)="generateAnalytics('email')">
-      <fa-icon [icon]="faEnvelope" size="xl" title="send me an email"></fa-icon>
-    </a>
-    <a href="https://github.com/leandroatavares" target="_blank" (click)="generateAnalytics('github')">
-      <fa-icon [icon]="faGithub" size="xl" title="go to my github"></fa-icon>
-    </a>
-    <a href="http://linkedin.com/in/leandroatavares" target="_blank" (click)="generateAnalytics('linkedin')">
-      <fa-icon [icon]="faLinkedin" size="xl" title="go to my linkedin"></fa-icon>
-    </a>
+    <p class="hero-description">I'm a software developer with over 7 years of experience. Experienced in HTML, CSS, and
+      JavaScript, I excel at
+      transforming designs into interactive and responsive websites and applications.</p>
+
+    <div class="social">
+      <a href="mailto:leandroanjostavares@gmail.com" (click)="generateAnalytics('email')">
+        <fa-icon [icon]="faEnvelope" size="xl" title="send me an email"></fa-icon>
+      </a>
+      <a href="https://github.com/leandroatavares" target="_blank" (click)="generateAnalytics('github')">
+        <fa-icon [icon]="faGithub" size="xl" title="go to my github"></fa-icon>
+      </a>
+      <a href="http://linkedin.com/in/leandroatavares" target="_blank" (click)="generateAnalytics('linkedin')">
+        <fa-icon [icon]="faLinkedin" size="xl" title="go to my linkedin"></fa-icon>
+      </a>
+      <a href="#">
+        <fa-icon [icon]="faFileDownload" size="xl" title="download my resume"></fa-icon>
+      </a>
+    </div>
+  </div>
+  <div class="hero-image">
+    <img [src]="avatar" alt="Leandro dos Anjos Tavares">
   </div>
 </section>
