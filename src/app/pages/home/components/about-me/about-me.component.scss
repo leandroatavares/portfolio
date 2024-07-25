@@ -7,6 +7,18 @@
 
 .about-me__image {
   width: 30rem;
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: -18px;
+    left: -18px;
+    width: 7rem;
+    height: 7rem;
+    border-left: 8px solid var(--color-detail);
+    border-top: 8px solid var(--color-detail);
+  }
 
   img {
     width: 100%;
@@ -24,18 +36,25 @@
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 50px;
+    margin-right: -3.3rem;
+
+    span {
+      font: 400 2.5rem 'Fira Mono', monospace;
+      color: var(--color-detail);
+    }
   }
 
   p {
     text-align: end;
     font-size: 1.5rem;
     margin-bottom: 30px;
+
   }
 }
 
 .techs {
   display: flex;
-  gap: 5px;
+  gap: 20px;
   flex-wrap: wrap;
   justify-content: flex-end;
 }
