@@ -9,4 +9,5 @@ import { Component } from '@angular/core';
 })
 export class AboutMeComponent {
   yearsOfExperience = new Date().getFullYear() - 2017;
+  avatar = '/assets/images/leandroatavares.jpg';
 }
