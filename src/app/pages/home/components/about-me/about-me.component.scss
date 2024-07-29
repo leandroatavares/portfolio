@@ -58,3 +58,39 @@
   flex-wrap: wrap;
   justify-content: flex-end;
 }
+
+@media (max-width: 1500px) {
+  #about-me {
+    gap: 5rem;
+  }
+
+  .right {
+    p {
+      font-size: 1rem;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .left {
+    display: none;
+  }
+
+  .right {
+    h2 {
+      text-align: center;
+      margin-right: 0rem;
+      font-size: 2rem;
+    }
+
+    p {
+      text-align: left;
+      font-size: 1rem;
+    }
+
+    .techs {
+      gap: .5rem;
+      justify-content: space-between;
+    }
+  }
+}
