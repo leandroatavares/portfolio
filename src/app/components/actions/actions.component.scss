@@ -21,7 +21,7 @@ $toggle-background-color-on: #1f263b;
 $toggle-background-color-off: #62ccff;
 $toggle-control-color: white;
 $toggle-width: 65px;
-$toggle-height: 30px;
+$toggle-height: 28px;
 $toggle-gutter: 5px;
 $toggle-radius: 50%;
 $toggle-control-speed: .125s;
@@ -29,8 +29,8 @@ $toggle-control-ease: ease-in;
 
 // These are our computed variables
 // change at your own risk.
-$toggle-radius: $toggle-height /2;
-$toggle-control-size: $toggle-height - ($toggle-gutter * 2);
+$toggle-radius: calc($toggle-height /2);
+$toggle-control-size: calc($toggle-height - ($toggle-gutter * 2));
 
 .toggle-control {
   display: block;
@@ -73,12 +73,15 @@ $toggle-control-size: $toggle-height - ($toggle-gutter * 2);
     border-radius: $toggle-radius;
     background-color: $toggle-background-color-off;
     transition: background-color $toggle-control-speed $toggle-control-ease;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+      0px 8px 13px rgba(0, 0, 0, 0.1),
+      0px 18px 23px rgba(0, 0, 0, 0.1);
 
     &::before {
       content: "";
       position: absolute;
-      width: $toggle-control-size / 1;
-      height: $toggle-control-size / 1;
+      width: calc($toggle-control-size / 1);
+      height: calc($toggle-control-size / 1);
       left: 0px;
       top: 0px;
       border-radius: 50%;
