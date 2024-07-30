@@ -1,6 +1,6 @@
 <div id="actions">
-  <button class="theme-action" (click)="onThemeSwitchChange()">
-    <fa-icon class="theme-action--icon" [icon]="isLightTheme ? faSun : faMoon" size="xl"
-      title="go to my github"></fa-icon>
-  </button>
+  <label class="toggle-control">
+    <input type="checkbox" checked="checked" (change)="onThemeSwitchChange()">
+    <span class="control"></span>
+  </label>
 </div>
