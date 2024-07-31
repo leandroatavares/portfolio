@@ -18,7 +18,7 @@
       <a href="http://linkedin.com/in/leandroatavares" target="_blank" (click)="generateAnalytics('linkedin')">
         <fa-icon [icon]="faLinkedin" size="xl" title="go to my linkedin"></fa-icon>
       </a>
-      <a href="#">
+      <a [href]="resume" download="Leandro-resumé" (click)="generateAnalytics('download_resumé')">
         <fa-icon [icon]="faFileDownload" size="xl" title="download my resume"></fa-icon>
       </a>
     </div>

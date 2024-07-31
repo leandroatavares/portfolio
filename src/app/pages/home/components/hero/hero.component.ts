@@ -18,6 +18,7 @@ export class HeroComponent {
   faLinkedin = faLinkedin;
   faFileDownload = faFileDownload;
   avatar = '/assets/images/leandroatavares.jpg';
+  resume = '/assets/files/Leandro-resume.pdf';
 
   constructor(private analyticsService: AnalyticsService) { }
 
