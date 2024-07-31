@@ -2,37 +2,26 @@
   <h2>my projects</h2>
 
   <div class="project-list">
-    <div class="project">
-      <img src="https://place-hold.it/1280x720" alt="project desciption">
-      <div class="project_info">
-        <p class="project_info__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam libero nulla,
-          blanditiis vero excepturi cupiditate nobis quo tempore eum praesentium.
-        </p>
-        <div class="techs">
-          <p>made with:</p>
-          <div class="tech-list">
-            <fa-icon [icon]="faAngular" title="angular"></fa-icon>
-            <fa-icon [icon]="faAngular" title="angular"></fa-icon>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <div class="project">
-      <img src="https://place-hold.it/1280x720" alt="project desciption">
-      <div class="project_info">
-        <p class="project_info__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam libero nulla,
-          blanditiis vero excepturi cupiditate nobis quo tempore eum praesentium.
-        </p>
-        <div class="techs">
-          <p>made with:</p>
-          <div class="tech-list">
-            <fa-icon [icon]="faAngular" title="angular"></fa-icon>
+    <a href="#">
+      <div class="project">
+        <img [src]="project1" alt="portfolio">
+        <div class="project_info">
+          <p class="project_info__title">protfolio</p>
+          <p class="project_info__description">
+            This project serves as a portfolio to introduce myself and showcase all of my work. It was developed using
+            Angular and deployed on AWS, utilizing S3, CloudFront, and Route 53 for hosting and distribution.
+          </p>
+          <div class="techs">
+            <p>made with:</p>
+            <div class="tech-list">
+              <fa-icon [icon]="faAngular" title="angular"></fa-icon>
+              <fa-icon [icon]="faAws" title="aws"></fa-icon>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </a>
   </div>
+
 </section>

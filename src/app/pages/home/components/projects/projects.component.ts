@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { faAngular } from '@fortawesome/free-brands-svg-icons';
+import { faAngular, faAws } from '@fortawesome/free-brands-svg-icons';
 
 
 @Component({
@@ -12,4 +12,6 @@ import { faAngular } from '@fortawesome/free-brands-svg-icons';
 })
 export class ProjectsComponent {
   faAngular = faAngular;
+  faAws = faAws;
+  project1 = '/assets/images/portfolio_project.png';
 }
