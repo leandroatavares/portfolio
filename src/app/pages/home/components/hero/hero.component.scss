@@ -40,8 +40,9 @@
   font-weight: 400;
   height: 40px;
   width: 200px;
-  padding: 5px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 2px;
   margin-bottom: 20px;
 
@@ -107,6 +108,10 @@ h1 {
 
   .hero-content {
     flex: 0;
+  }
+
+  .see-more-button {
+    margin: 0 auto 20px auto;
   }
 
   h1 {
